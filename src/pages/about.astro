@@ -1,0 +1,10 @@
+---
+import Counter from "../components/Counter";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="About">
+  <h1>About</h1>
+  <p>Second page to test navigation and hydration.</p>
+  <Counter client:load label="About counter" />
+</Layout>
